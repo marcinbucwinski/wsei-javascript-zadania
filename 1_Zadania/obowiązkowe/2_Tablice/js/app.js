@@ -11,3 +11,29 @@ console.log(temp)};
 console.log(multiply(array1));
 
 //Zadanie 5
+array=[1,2,3,4,5,6];
+function getEventAvarage(array) {
+    let arg=0
+    let eventNumber=0
+
+    array.forEach(element=>{
+
+    if (element%2==0){
+    arg+=element
+    eventNumber++}
+    })
+
+    if(arg==0){
+    console.log(null)
+    }else{
+    console.log(arg/eventNumber)
+}};
+console.log(getEventAvarage(array));
+
+//Zadanie 6
+array2=[145,11,3,64,4,6,10];
+function sortArray(array){
+    const t= array.sort(function(a, b){return a - b});
+    console.log(t);
+};
+console.log(sortArray(array2));
