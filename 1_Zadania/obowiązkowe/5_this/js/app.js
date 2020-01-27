@@ -1,0 +1,38 @@
+// Zadanie 0
+var car={
+    brand:"volvo", 
+    color:"silver",
+    numberOfKilometers:0,
+    printCarinfo:function(){
+        console.log(this.brand,'', this.color,'', this.numberOfKilometers);
+    },
+    drive:function(a){
+         this.numberOfKilometers+=a;
+    }
+    };
+
+console.log(car.printCarinfo()); 
+console.log(car.drive(20));
+console.log(car.printCarinfo()); 
+
+//Zadanie 2
+var calculator = {
+    save: function (newA, newB) {
+        this.a = newA;
+        this.b = newB;
+    },
+
+    sum: function(){
+        return this.a+this.b;
+    },
+
+    multiply: function(){
+        return this.a*this.b;
+    }
+};
+
+calculator.save(2, 3);
+console.log(calculator.sum());
+console.log(calculator.multiply());
+
+
