@@ -1,3 +1,16 @@
+//Zadanie 0a
+var city={};
+city.capital="Warszawa";
+city.population="1.5mln";
+city.president="ktos";
+city.primeMinisters="ktos1, kros2, ktos3";
+console.log(city.capital);
+console.log(city.population);
+console.log(city.president);
+console.log(city.primeMinisters);
+
+//Zadanie 0b
+
 
 //Zadanie 1
 var book={title:"cos",author:"ktos",numberOfPages:3};
