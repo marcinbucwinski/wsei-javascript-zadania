@@ -1,3 +1,19 @@
+//Zadanie 0
+array0=[1,2,3,4,5,6,7];
+function distFromAvarage(array){
+    var tmp=0;
+    for(var i=0; i<array.length; i++){
+        tmp+=array[i];
+    };
+    var avg=tmp/array.length;
+    var newarray=[];
+    for(var i=0; i<array.length; i++){
+        newarray[i]=array[i]-avg;
+    };
+    console.log(newarray);
+};
+console.log(distFromAvarage(array0));
+
 //Zadanie 1
 var owoce=["jablko","sliwka","gruszka","poziomka"];
 console.log(owoce[0]);
