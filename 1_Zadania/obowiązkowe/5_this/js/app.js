@@ -15,24 +15,26 @@ console.log(car.printCarinfo());
 console.log(car.drive(20));
 console.log(car.printCarinfo()); 
 
-//Zadanie 2
-var calculator = {
-    save: function (newA, newB) {
-        this.a = newA;
-        this.b = newB;
+//Zadanie 3
+var stairs={
+    step:0,
+
+    up:function(){
+        this.step+=1
     },
 
-    sum: function(){
-        return this.a+this.b;
+    down:function(){
+        this.step-=1
     },
 
-    multiply: function(){
-        return this.a*this.b;
+    printStep:function(){
+        console.log(this.step);
     }
+
 };
-
-calculator.save(2, 3);
-console.log(calculator.sum());
-console.log(calculator.multiply());
-
+stairs.up();
+stairs.up();
+stairs.up();
+stairs.down(); 
+stairs.printStep() 
 
