@@ -1,4 +1,20 @@
+//Zadanie 1
+var owoce=["jablko","sliwka","gruszka","poziomka"];
+console.log(owoce[0]);
+var a=owoce.length-1;
+console.log(owoce[a]);
+for(var i=0; i<owoce.length; i++){
+    console.log(owoce[i]);
+};
 
+//Zadanie 3
+var array3=[1,2,3,4,5]
+function printTable(array){
+    for(var i=0; i<array.length; i++){
+        console.log(array[i]);
+    };
+};
+console.log(printTable(array3));
 
 //Zadanie 4
 var array1=[1,2,3,4,5,6,7];
