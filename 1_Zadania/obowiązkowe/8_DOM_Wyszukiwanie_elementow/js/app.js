@@ -27,19 +27,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //Zadanie 2
 
-    const tagNav = document.querySelector('nav').querySelectorAll('li');
+    var tagNav = document.querySelector('nav').querySelectorAll('li');
     console.log(tagNav.length);
 
-    const paragraf = document.querySelectorAll('div p')
+    var paragraf = document.querySelectorAll('div p');
     console.log(paragraf.length);
 
-    const tagArticle = document.querySelectorAll('article div');
+    var tagArticle = document.querySelectorAll('article div');
     console.log(tagArticle.length);
 
 
     //Zadanie 3
 
-    const classFirst = document.querySelector('article.first');
+    var classFirst = document.querySelector('article.first');
     const h1 = classFirst.querySelectorAll('h1');
     console.log(h1.length);
 
