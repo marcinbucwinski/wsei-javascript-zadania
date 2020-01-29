@@ -85,3 +85,20 @@ function print2DArray(array){
     }
 };
 console.log(print2DArray(arr3));
+
+//Zadanie 5
+function create2DArray(rows,columns){
+    var array=[];
+    var temp=[];
+    var value=1
+    for(var i=0; i<rows; i++){
+        for (var j=1; j<columns+1; j++){
+            temp.push(value++);
+        };
+        array.push(temp);
+        temp=[];
+    };
+    return array;
+};
+console.log(create2DArray(4,4));
+
