@@ -9,3 +9,8 @@ var movie = {
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
 }
+
+//Zadanie 4
+for (x in movie){
+    console.log(movie[x])
+};
