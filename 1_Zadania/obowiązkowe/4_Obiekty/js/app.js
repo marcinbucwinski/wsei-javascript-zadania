@@ -10,7 +10,16 @@ console.log(city.president);
 console.log(city.primeMinisters);
 
 //Zadanie 0b
-
+const timeMachine = {
+    shape:'kwadrat',
+    model:'auto',
+    run: (date, place) => {
+        console.log(`Jest: ${date}. Miejsce: ${place}`);
+    }
+};
+console.log(`shape: ${timeMachine.shape}`);
+console.log(`model: ${timeMachine.model}`);
+timeMachine.run('02.03.1987', 'Krakow');
 
 //Zadanie 1
 var book={title:"cos",author:"ktos",numberOfPages:3};
@@ -45,8 +54,6 @@ var movie = {
 for (x in movie){
     console.log(movie[x])
 };
-
-
 
 
 //Zadanie 6
