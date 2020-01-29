@@ -44,8 +44,13 @@ task1Array.forEach(elem => {console.log(elem.length);});
 console.log(task1Array[4][2]);
 
 //Zadanie 2
-
-
+task2Array.forEach(elem => console.log(elem[0]));
+task2Array.forEach(elem => console.log(elem.length));
+for(var i = 0; i < task2Array.length; i++) {
+    for(var j = 0; j < task2Array[i].length; j++) {
+        console.log(task2Array[i][j]);
+    }
+}
 
 //Zadanie 3
 var arr3 = [
