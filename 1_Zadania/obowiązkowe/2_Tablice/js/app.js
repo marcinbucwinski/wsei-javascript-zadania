@@ -69,3 +69,26 @@ function sortArray(array){
     console.log(t);
 };
 console.log(sortArray(array2));
+
+//Zadanie 7
+
+function addArrays(array1, array2) {
+    var arrayLength = array1.length > array2.length ? array1.length : array2.length;
+    var newArray = [];
+    for(var i = 0; i < arrayLength; i++) {
+        if(typeof(array1[i]) === 'undefined') {
+            newArray.push(array2[i]);
+        }else if(typeof(array2[i]) === 'undefined') {
+            newArray.push(array1[i]);
+        }else {
+            newArray.push(array1[i] + array2[i]);
+        }
+        
+    }
+    console.log(newArray);
+    return newArray;
+}
+
+addArrays([4,0,1,3,4],[1,9,6,7,8,17]);
+addArrays([8,3,22],[1,3,2]);
+addArrays([2,3,1,5,3,5],[3,1,76,1]);
