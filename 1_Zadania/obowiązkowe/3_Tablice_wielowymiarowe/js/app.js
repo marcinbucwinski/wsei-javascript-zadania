@@ -14,10 +14,37 @@ var task2Array = [
     [9, 10, 11, 12]
 ];
 
+//Zadanie 0
+var arr = [
+    [11, 12],
+    [42, 2],
+    [-4, -120],
+    [0, 0],
+    [1, 34],
+    ];
+function checkArray(array) {
+    var newArray = [];
+    for(var i = 0; i < array.length; i++) {
+        var check = true;
+        for(var j = 0; j < array[i].length; j++) {
+            if(array[i][j] % 2 !== 0) {
+                 check = false;
+                break;
+            }
+        }
+        newArray.push(check);
+    }
+    return newArray;
+}   
+console.log(checkArray(arr));
+
 //Zadanie 1
 console.log(task1Array[3][2]);
-console.log(task1Array[1].length);
+task1Array.forEach(elem => {console.log(elem.length);});
 console.log(task1Array[4][2]);
+
+//Zadanie 2
+
 
 
 //Zadanie 3
