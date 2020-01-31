@@ -26,3 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 })
+
+// Można użyć metody Bind(), która wskazuje bezpośrednio do których danych będzie się odwoływał this.
