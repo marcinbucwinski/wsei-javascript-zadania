@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('click', function (element) {
     if (element.target.className === 'btn btn-primary') {
         const emailValue = document.getElementById('email').value;
@@ -30,3 +31,4 @@ document.addEventListener('click', function (element) {
         }
     }
 })
+});
