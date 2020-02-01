@@ -5,28 +5,29 @@
  */
 
 
-//Twoj komentarz ...
+//Utworzenie funkcji o nazwie "jeden"
 function jeden() {
 
-    //Twoj komentarz ...
+    //Deklaracja zmiennej i przypisanie wartości
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Utworzenie funkcji o nazwie "dwa"
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wyświetlenie w konsoli zmiennej "zmienna1"
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Deklaracja zmiennej i przypisanie wartości
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywołanie funkcji "dwa"
     dwa();
 
-    //Twoj komentarz ...
+    
+    //Pojawienie sie komunikatu "zmienna2 is not defined" ponieważ zmienna2 nie jest widoczna na zewnątrz funkcji dwa()
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji jeden(), która wywołuje funkcję dwa()
 jeden()
