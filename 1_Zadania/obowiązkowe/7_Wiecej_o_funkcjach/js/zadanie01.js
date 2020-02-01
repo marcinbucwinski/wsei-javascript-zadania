@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//Utworzenie funkcji "sortArray()"
 function sortArray() {
 
-    //Twoj komentarz ...
+    //Utworzenie zmiennej tablicowej i przypisanie wartości do tablicy
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //Sortowanie elementów tablicy
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //Wynikiem sortowania będzie tablica z posortowanymi elementami rosnąco
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //Zwraca posortowaną tablicę
     return points;
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji sortArray() 
 sortArray();
